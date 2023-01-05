@@ -1,0 +1,76 @@
+hr{
+    width: 70%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+}
+
+.flex-pai{
+    background:blue;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex-pai div{
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin:5px;
+    padding:30px;
+    text-align: center;
+    
+}
+
+.flex-login{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 400px;
+    height: 370px;
+    align-items: center;
+    margin:50px;
+    flex-wrap: wrap;
+}
+
+.flex-login input{
+    width: 90%;
+    height: 11%;
+    margin:20px;
+    margin-bottom: 1px;
+    border-radius: 6px;
+    border: 1px solid rgb(228, 218, 218);   
+}
+
+.flex-login button{
+   
+    height: 11%;
+    margin:20px;
+    border-radius: 6px;
+    cursor:pointer;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.box{
+    background: rgb(214, 213, 213);
+    width: 97%;
+    height: 1000%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-login a{
+    text-decoration: none;
+    color:rgb(82, 97, 228);
+    font-size: 14px;
+    font-family: 'Segoe UI';
+}
